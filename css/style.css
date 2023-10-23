@@ -27,19 +27,24 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.head-navigation-list{
+
+.head-navigation-list {
     display: flex;
     gap: 50px;
 }
-.head-list{
+
+.head-list {
     display: flex;
     gap: 30px;
 }
+
 .header {
     padding: 24px 0;
-    border:1px solid #ECECEC;
+    border: 1px solid #ECECEC;
 }
-
+.head-list-link{
+    color: #757575;
+}
 .head-link {
     font-family: Raleway;
     font-size: 26px;
@@ -60,6 +65,12 @@ body {
     text-align: left;
 
 }
+.head-navigation-list-link-second{
+    color: var(--color-blue);
+}
+.head-navigation-list-link{
+    color: var(--color-black);
+}
 .filter-list-item {
     font-family: Roboto;
     font-size: 16px;
@@ -68,7 +79,8 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
 }
-.filter-list-button{
+
+.filter-list-button {
     padding: 6px 22px;
     border-radius: 4px;
 }
@@ -88,25 +100,35 @@ body {
     line-height: 36px;
     letter-spacing: 0.06em;
     text-align: left;
-
+    padding: 0 24px 4px 24px;
 }
-.section-hero{
+
+.section-hero {
     margin-bottom: 94px;
 }
-.portfolio-list-img{
+
+.portfolio-list-img {
     width: 370px;
     height: 294px;
 }
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     gap: 30px;
 }
-.portfolio-list-item{
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+.portfolio-list-item {
+    border-radius: 0px 0px 1px 1px;
+    outline: 1px solid #EEEEEE;
+    width: 370px;
+    height: 404px;
+    top: 262px;
+    left: 615px;
+
 }
+
 .portfolio-list-description {
     font-family: Roboto;
     font-size: 16px;
@@ -114,6 +136,7 @@ body {
     line-height: 30px;
     letter-spacing: 0.03em;
     text-align: left;
+    padding: 0 24px 0 24px;
 }
 
 .footer-link {
@@ -127,11 +150,12 @@ body {
 
 }
 
-.footer{
+.footer {
     background-color: var(--color-footer);
     padding: 60px 0;
 
 }
+
 .footer-address-item {
     font-family: Roboto;
     font-size: 14px;
@@ -139,13 +163,18 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: left;
-    color:var(--color-footer-info);
+    color: var(--color-footer-info);
     text-decoration: none;
 }
-.footer-info{
+
+.footer-address-list {
+    padding: 20px 0 0 0;
+}
+
+.footer-info {
     color: #FFFFFF;
 }
-span{
+span {
     font-family: Roboto;
     font-size: 26px;
     font-weight: 700;
