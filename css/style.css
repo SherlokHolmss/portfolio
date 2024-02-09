@@ -14,7 +14,14 @@ body {
     --color-footer: #2F303A;
     --color-header-outline: ECECEC;
 }
-
+@keyframes animation{
+    from{
+        color: black;
+    }
+    to{
+        color: white;
+    }
+}
 .container {
     padding-left: 15px;
     padding-right: 15px;
