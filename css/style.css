@@ -356,8 +356,10 @@ button:hover {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-
-.portfolio-list-item:hover .overlay-text {
+.portfolio-list-link{
+    color: #212121;
+}
+.portfolio-list-link:hover .overlay-text {
     transform: translateY(0);
 
 }
